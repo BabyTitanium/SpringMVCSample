@@ -2,9 +2,19 @@
 <project version="4">
   <component name="RemoteRepositoriesConfiguration">
     <remote-repository>
+      <option name="id" value="shardbaits" />
+      <option name="name" value="shardbaits repository" />
+      <option name="url" value="http://shardbatis.googlecode.com/svn/trunk/repository" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="central" />
       <option name="name" value="Central Repository" />
       <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="central" />
+      <option name="url" value="http://nexus.tech.2caipiao.com/content/groups/public/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="central" />

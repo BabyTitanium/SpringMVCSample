@@ -17,7 +17,7 @@ public class HelloController {
     @XRequestMapping("index")
     public String index(HttpServletRequest req, HttpServletResponse resp){
         aService.doSomething();
-        String str="<h1>Do something1111</hello>";
+        String str="<h1>Do something2222</hello>";
         System.out.println(str);
         try {
             resp.getWriter().write(str);
